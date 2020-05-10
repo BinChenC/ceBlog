@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    initialization-mode: always
+    username: root
+    password: c991021..
+    url: jdbc:mysql://localhost:3306/blog?autoReconnect=true
+    hikari:
+      maximum-pool-size: 12
+      connection-timeout: 60000
+      minimum-idle: 10
+      idle-timeout: 500000
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update

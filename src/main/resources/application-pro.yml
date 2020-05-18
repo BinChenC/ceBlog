@@ -2,7 +2,7 @@ spring:
   datasource:
     initialization-mode: always
     username: root
-    password: c991021..
+    password: root
     url: jdbc:mysql://localhost:3306/blog?autoReconnect=true
     hikari:
       maximum-pool-size: 12
